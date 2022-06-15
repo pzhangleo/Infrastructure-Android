@@ -1,4 +1,4 @@
-package zhp.network.lib.helper.adapter
+package zhp.network.lib.adapter
 
 import okhttp3.Headers
 import retrofit2.Response

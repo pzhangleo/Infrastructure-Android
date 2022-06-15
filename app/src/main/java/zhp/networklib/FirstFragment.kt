@@ -6,15 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
-import androidx.navigation.fragment.findNavController
 import kotlinx.coroutines.launch
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.converter.scalars.ScalarsConverterFactory
-import zhp.network.lib.helper.adapter.NetworkResponse
-import zhp.network.lib.helper.adapter.NetworkResponseAdapterFactory
+import zhp.network.lib.adapter.NetworkResponse
+import zhp.network.lib.adapter.NetworkResponseAdapterFactory
 import zhp.networklib.databinding.FragmentFirstBinding
 import zhp.networklib.network.Apis
 

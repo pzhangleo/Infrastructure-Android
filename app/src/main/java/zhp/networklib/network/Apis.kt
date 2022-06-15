@@ -1,7 +1,7 @@
 package zhp.networklib.network
 
 import retrofit2.http.GET
-import zhp.network.lib.helper.adapter.NetworkResponse
+import zhp.network.lib.adapter.NetworkResponse
 
 interface Apis {
 
